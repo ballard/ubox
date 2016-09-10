@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C82F35A1D849F9F00BE3546 /* UboxMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C82F3591D849F9F00BE3546 /* UboxMainViewController.swift */; };
 		2CB8F9831D8499CB00FBC7B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB8F9821D8499CB00FBC7B5 /* AppDelegate.swift */; };
-		2CB8F9851D8499CB00FBC7B5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB8F9841D8499CB00FBC7B5 /* ViewController.swift */; };
 		2CB8F9881D8499CB00FBC7B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CB8F9861D8499CB00FBC7B5 /* Main.storyboard */; };
 		2CB8F98A1D8499CB00FBC7B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CB8F9891D8499CB00FBC7B5 /* Assets.xcassets */; };
 		2CB8F98D1D8499CB00FBC7B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CB8F98B1D8499CB00FBC7B5 /* LaunchScreen.storyboard */; };
@@ -69,9 +69,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2C82F3591D849F9F00BE3546 /* UboxMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UboxMainViewController.swift; sourceTree = "<group>"; };
 		2CB8F97F1D8499CB00FBC7B5 /* ubox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ubox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CB8F9821D8499CB00FBC7B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2CB8F9841D8499CB00FBC7B5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2CB8F9871D8499CB00FBC7B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2CB8F9891D8499CB00FBC7B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2CB8F98C1D8499CB00FBC7B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -112,7 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				2CB8F9941D8499E800FBC7B5 /* Supporting Files */,
-				2CB8F9841D8499CB00FBC7B5 /* ViewController.swift */,
+				2C82F3591D849F9F00BE3546 /* UboxMainViewController.swift */,
 				2CB8F9861D8499CB00FBC7B5 /* Main.storyboard */,
 			);
 			path = ubox;
@@ -250,8 +250,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2CB8F9851D8499CB00FBC7B5 /* ViewController.swift in Sources */,
 				2CB8F9831D8499CB00FBC7B5 /* AppDelegate.swift in Sources */,
+				2C82F35A1D849F9F00BE3546 /* UboxMainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
